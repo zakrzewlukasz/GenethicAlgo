@@ -36,7 +36,7 @@ Resources:
         # read and write into DDB
         - arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess
         # ability to get the container image from ECR
-        - arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly
+        - arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess
         # sagemaker needs the ability to read S3 buckets
         - arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
 
